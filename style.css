@@ -18,6 +18,11 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 }
 
+.list ul {
+    padding: 0;
+    text-align: left;
+}
+
 .compare table, .compare th, .compare td {
     border: 1px solid #333;
     padding: 10px;
@@ -29,6 +34,21 @@ body {
 .compare th {
     background-color: #333;
     color: #fff;
+}
+
+.reasons-image {
+    max-width: 20%;
+    height: auto;
+}
+
+.comparebad {
+  max-width: 40%;
+  height: auto;
+}
+
+.comparegood {
+  max-width: 20%;
+  height: auto;
 }
 
 a {
