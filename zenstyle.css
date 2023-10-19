@@ -1,0 +1,65 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #23272A;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://media.tenor.com/cYk13nZOXQ8AAAAd/zen-garden-japanese-garden.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(35, 39, 42, 0.8);
+}
+
+.header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.main {
+    flex: 1;
+    background-color: #7accff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #a8b0ff;
+    padding: 20px;
+    border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .page-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
